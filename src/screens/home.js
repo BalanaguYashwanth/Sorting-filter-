@@ -23,7 +23,7 @@ export function Home() {
         setPrev(prev-20)
         setNext(next-20)
     }
-    console.log(prev, next)
+    //console.log(prev, next)
   }
 
   function nextPage()
@@ -34,7 +34,7 @@ export function Home() {
         setPrev(prev+20)
         setNext(next+20)
     }
-    console.log(prev, next)
+    //console.log(prev, next)
   }
 
   useEffect(() => {
