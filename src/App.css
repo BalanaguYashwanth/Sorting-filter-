@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+:root {
+    color-scheme: light dark; /* both supported */
+  }
+
+.input{
+    margin:10px
+}  
+
+p{
+    margin:1px
+}
+
+input{
+    display: block;
+    background: url('https://yourstory.com/icons/assets/icon_search_grey.svg') 0.8rem center / auto 40% no-repeat ;
+    width: 75%;    
+    padding: 10px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin:0 auto; 
+    /* background-color: #eee; */
+}
+
+select{
+    margin: 10px auto;
+    padding: 10px;    
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    /* background-color: #eee; */
+}
+
+.container{
+    text-align: center;
+   
+    margin: 0 auto;
+    height: 100vm;
+}
+
+.subcontainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card{
+    padding: 25px;
+    margin: 0px auto;
+    border: 1px solid #ddd;
+    height:7rem;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
